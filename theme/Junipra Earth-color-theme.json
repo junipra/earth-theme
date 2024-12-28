@@ -1,0 +1,122 @@
+{
+	"name": "Junipra Earth",
+"colors": {
+	"editor.background": "#202723",    // Deep Forest Green for main editor background
+	"editor.foreground": "#F4ECE1",    // Warm Ivory for main text
+	"activityBar.background": "#1A2520", // Deeper Green for Activity Bar background
+	"activityBar.foreground": "#F4ECE1", // Warm Ivory for Activity Bar icons
+	"activityBar.activeBackground": "#2E3733", // Slightly lighter highlight for active icon background
+	"activityBar.inactiveForeground": "#7C9274", // Muted Moss Green for inactive icons
+	"sideBar.background": "#1A2520",    // Deeper Green for Sidebar background
+	"sideBar.foreground": "#87A57A",    // Soft Moss Green for default file names
+	"sideBarTitle.foreground": "#D9A760", // Golden Amber for Sidebar titles
+	"sideBarSectionHeader.background": "#1A2520", // Match Sidebar Header background
+	"sideBarSectionHeader.foreground": "#F4ECE1", // Sidebar Header text
+	"list.activeSelectionForeground": "#9FC494", // Golden Green for active selected file
+	"list.inactiveSelectionForeground": "#6A7D5C", // Muted Sage Green for inactive selected file
+	"list.hoverForeground": "#A2D39E",  // Muted Olive Green for hovered file
+	"list.focusForeground": "#87A57A",  // Soft Moss Green for focused file
+	"titleBar.activeBackground": "#1A2520", // Deeper Green for active Title Bar
+	"titleBar.activeForeground": "#F4ECE1", // Warm Ivory for Title Bar text/icons
+	"titleBar.inactiveBackground": "#1A2520", // Deeper Green for inactive Title Bar
+	"titleBar.inactiveForeground": "#7C9274", // Muted Moss Green for inactive text/icons
+	"commandCenter.background": "#1A2520", // Deeper Green for Command Center background
+	"commandCenter.foreground": "#F4ECE1", // Warm Ivory for Command Center text
+	"panel.background": "#1A2520",       // Deeper Green for bottom Panel background
+	"panel.border": "#D9A760",          // Golden Amber for Panel border
+	"panelTitle.activeForeground": "#F4ECE1", // Warm Ivory for active Panel titles
+	"panelTitle.inactiveForeground": "#7C9274", // Muted Moss Green for inactive Panel titles
+	"tab.activeBackground": "#1A2520",      // Deeper Green for active tabs
+	"tab.inactiveBackground": "#1F2A24",    // Deep Forest Green for inactive tabs
+	"tab.border": "#D9A760",                // Golden Amber for tab borders
+	"menu.background": "#1A2520",       // Deeper Green for dropdown menus
+	"menu.foreground": "#F4ECE1",       // Warm Ivory for menu text
+	"menu.selectionBackground": "#D9A760", // Golden Amber for selected menu items
+	"menu.selectionForeground": "#1A2520", // Deeper Green for selected text
+	"menu.separatorBackground": "#7C9274" // Muted Moss Green for separators
+},
+
+	"tokenColors": [
+		{
+			"name": "HTML Tags",
+			"scope": ["entity.name.tag"],
+			"settings": {
+				"foreground": "#88B3C3"   // Muted Sky Blue for tags
+			}
+		},
+		{
+			"name": "HTML Attributes",
+			"scope": ["entity.other.attribute-name"],
+			"settings": {
+				"foreground": "#E2B656"   // Earthy Amber for attributes
+			}
+		},
+		{
+			"name": "HTML Attribute Values",
+			"scope": ["string.quoted.double.html", "string.quoted.single.html"],
+			"settings": {
+				"foreground": "#87A57A"   // Soft Moss Green for attribute values
+			}
+		},
+		{
+			"name": "Function Calls",
+			"scope": ["entity.name.function"],
+			"settings": {
+				"foreground": "#88B3C3"   // Muted Sky Blue for function calls
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#738a7f"   // Muted Gray-Green for disabled comment appearance
+			}
+		},
+		{
+			"name": "JavaScript Keywords",
+			"scope": ["keyword", "storage.type", "storage.modifier"],
+			"settings": {
+				"foreground": "#D97A5A"   // Burnt Orange for keywords
+			}
+		},
+		{
+			"name": "JavaScript Variables",
+			"scope": ["variable", "meta.definition.variable.name"],
+			"settings": {
+				"foreground": "#88B3C3"   // Muted Sky Blue for variables
+			}
+		},
+		{
+			"name": "JavaScript Operators",
+			"scope": ["keyword.operator", "punctuation.separator.key-value"],
+			"settings": {
+				"foreground": "#D97A5A"   // Burnt Orange for operators
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": ["string.quoted.single", "string.quoted.double"],
+			"settings": {
+				"foreground": "#A2D39E"   // Light Green for strings
+			}
+		},
+		{
+			"name": "Template Literals",
+			"scope": ["string.template"],
+			"settings": {
+				"foreground": "#5EAE56"   // Darker Vibrant Green for template literals
+			}
+		},
+		{
+			"name": "Brackets",
+			"scope": ["punctuation.definition.block", "punctuation.definition.parameters"],
+			"settings": {
+				"foreground": "#B58DD6"   // Soft Purple for brackets
+			}
+		}
+	]
+}

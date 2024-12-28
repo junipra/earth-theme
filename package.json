@@ -1,0 +1,21 @@
+{
+  "name": "junipra",
+  "displayName": "Junipra",
+  "description": "A geometric-inspired theme featuring monochromatic earth tones to create a balanced, minimalist coding experience. Perfect for developers who value style and readability",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Junipra Earth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Junipra Earth-color-theme.json"
+      }
+    ]
+  }
+}
