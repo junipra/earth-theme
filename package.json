@@ -4,7 +4,7 @@
   "description": "A geometric-inspired theme featuring monochromatic earth tones to create a balanced, minimalist coding experience. Perfect for developers who value style and readability",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Themes"
