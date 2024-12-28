@@ -14,7 +14,7 @@
       {
         "label": "Junipra Earth",
         "uiTheme": "vs-dark",
-        "path": "./themes/Junipra Earth-color-theme.json"
+        "path": "./theme/Junipra Earth-color-theme.json"
       }
     ]
   },
