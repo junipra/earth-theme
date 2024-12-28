@@ -17,5 +17,9 @@
         "path": "./themes/Junipra Earth-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junipra/earth-theme"
   }
 }
